@@ -1,0 +1,243 @@
+
+ body{
+     font-family: Poppins, sans-serif;
+     background-color: rgb(229, 212, 192);
+     color: rgb(2, 1, 0);
+   margin-left: 0;
+   margin-right: o;
+}
+header {
+  position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background-color: #bfb0b0;
+padding: 20px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+text-decoration: none;
+}
+header {
+  transition: all 0.3s ease-in-out;
+}
+header.stickey {
+  background-color: #333;
+}
+@media  (max-width: 768px) {  
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.logo img{
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}   
+}
+
+
+
+.logo img {
+    width: 50%;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px 20px;
+   margin: 0 auto;
+   display: block;
+    
+}
+
+.cta-button , .button {
+    background-color: rgb(195, 195, 195);
+   color: white;
+   padding: 15px 30px;
+   text-align: center;
+   display: inline-block;
+   border: none;
+   font-size: 16px;
+text-decoration: none;
+border-radius: 25px;
+margin-bottom: 10%;
+cursor: pointer;
+transition: background-color 0.3s ease, font-size 0.3s ease
+} 
+.cta-button , .button:hover {
+  background-color: rgb(138, 135, 132);
+  font-size: 20px;
+ }
+.course-container {
+  display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px;
+}
+.course-card {
+  background-color: rgba(255, 255, 255, 0.677);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  width:100;
+  max-width:100%; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.course-card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+course-card img {
+  width: 100%; 
+  height: auto; 
+  border-bottom: 2px solid rgb(193, 199, 205);
+  display: block;
+}
+.course-content {
+  padding: 15px;
+}
+.course-content h3 {
+  font-size: 24px;
+  color: rgb(2, 1, 0);
+  margin: 10px 0;
+}
+course-content p {
+  font-size: 14px;
+  color: rgb(107, 99, 99);
+  margin: 0 0 10px;
+}
+
+.button a:hover {
+background-color: rgb(138, 135, 132);
+font-size: larger;
+}
+h1{
+    color: whitesmoke;
+  text-align: center;
+  font-weight: bolder;
+}
+ 
+ 
+ .Home{
+   text-decoration: none; 
+   background-color: rgb(193, 199, 205);
+   color: white;
+ }
+ .Courses{
+    text-decoration: none;
+    background-color: rgb(193, 199, 205);
+   color: white;
+ }
+ .Aboutus{
+   text-decoration: none; 
+   background-color: rgb(193, 199, 205);
+   color: white;
+ }
+ .contactus{
+    text-decoration: none;
+    background-color: rgb(193, 199, 205);
+   color: white;
+ }
+ h2{
+    color: darkgray;
+ }
+ h3{
+    color: rgb(107, 99, 99);
+    margin-top: 10%;
+ } 
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #bfb0b0;
+    display: flex;
+    flex-direction: r;
+    list-style: none;
+    text-align: center;
+  }
+  
+  li { 
+    float: left;
+    width: 25%;
+    
+     
+  }
+  
+  li a {
+  
+display: block;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    
+  }
+  .clear{
+    clear: both;
+  }
+  
+  
+  
+  li a:hover {
+    background-color:rgb(234, 234, 221);
+    font-size: larger;
+}
+    
+
+    
+    
+    .contact h2{
+font-size: xx-large;
+margin-bottom: 20px;
+color:darkgray;
+
+    }
+    .contact p{
+      margin-bottom: 30px;
+      color:black ;
+    }
+    .contact label{
+display: block;
+margin-bottom: 8px;
+font-weight: bold;
+color: rgb(74, 33, 3);
+    }
+    .contact textarea,
+    .contact input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #bfb0b0da ;
+      border-radius: 4px;
+      font-size: larger;
+    }
+    .contact button {
+      background-color: beige;
+      color: chocolate;
+      border: none;
+      padding: 10px 20px ;
+      font-size: large;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .contact button:hover {
+      background-color: rgb(184, 218, 218);
+      font-size: 20px;
+    }
+    .c{
+      text-align: center;
+    }
+   
+   .l {
+    font-weight: bolder;
+   }
